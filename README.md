@@ -1,4 +1,5 @@
-# S2S (SQL to Stream) - Benchmark Suite Generator for the Java Stream API
+# S2S (SQL to Stream)
+## Benchmark Suite Generator for the Java Stream API
 
 S2S is a benchmark suite generator which compiles SQL queries into Java source code which makes use of the Stream API.
 
@@ -16,10 +17,12 @@ Run `mvn clean package`
 
 ### Run the example and build BSS
 
-Use the script `gen.sh`
+Use the script `gen-example.sh`
 
 ### Example input data
 
 To generate a dataset for BSS with different scale factor, e.g., SF 1:
 
 SCALE_FACTOR=1 ./get-tpch-db.sh
+
+### Developed by Filippo Schiavio ([flpo](https://github.com/flpo))
