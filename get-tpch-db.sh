@@ -1,6 +1,6 @@
 if [ ! -d "TPCH-sqlite" ]; then
   echo "cloning TPCH-sqlite"
-  git clone --recursive git@github.com:flpo/TPCH-sqlite.git
+  git clone --recursive git@github.com:usi-dag/TPCH-sqlite.git
 fi
 
 cd TPCH-sqlite
